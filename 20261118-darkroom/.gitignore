@@ -1,0 +1,26 @@
+# macOS Finder metadata
+.DS_Store
+
+# Python environment and bytecode
+.venv/
+__pycache__/
+*.py[cod]
+
+# Render work directories and documented output directories
+/build/
+/renders/
+/flow-work/
+/animation/flow-work/
+/animation/work/
+/still/work/
+/still/prints/
+/still/proof/
+
+# Finished renders written outside the usual output directories
+Still-Running-native.png
+Still-Running.png
+Still-Running-flow-native.gif
+Still-Running-flow.gif
+Still-Running-flow.mp4
+Still-Running-phone.webp
+Still-Running-dust-detail.gif
