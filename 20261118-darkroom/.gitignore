@@ -8,7 +8,7 @@ __pycache__/
 
 # Render work directories and documented output directories
 /build/
-/renders/
+/renders/*
 /flow-work/
 /animation/flow-work/
 /animation/work/
@@ -24,3 +24,12 @@ Still-Running-flow.gif
 Still-Running-flow.mp4
 Still-Running-phone.webp
 Still-Running-dust-detail.gif
+
+# Published artwork
+!/renders/Still-Running-native.png
+!/renders/Still-Running.png
+!/renders/Still-Running-flow-native.gif
+!/renders/Still-Running-flow.gif
+!/renders/Still-Running-flow.mp4
+!/renders/Still-Running-phone.webp
+!/renders/Still-Running-dust-detail.gif

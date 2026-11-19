@@ -2,7 +2,7 @@
 
 This project renders an empty photographic darkroom as a **still image** and a **14.4-second running-water loop**. In the loop, glints travel along the stream, ripples widen, a print drifts, the curtain moves, and dust passes through the light.
 
-The archive contains source code only. It draws the photographs and labels, builds the room and its furnishings in 3D, traces the light, and maps the result to the 68-colour pixel palette. The animation reads the colour, depth, material IDs, and native PNG produced by the still renderer.
+The renderers draw the photographs and labels, build the room and its furnishings in 3D, trace the light, and map the result to the 68-colour pixel palette. The animation reads the colour, depth, material IDs, and native PNG produced by the still renderer.
 
 ## Render both
 
@@ -20,13 +20,13 @@ The finished files go into `renders/`. Intermediate photographs, compiled C++ pr
 
 | File in `renders/` | Contents |
 | --- | --- |
-| `Still-Running-native.png` | Native 528 × 304 indexed still |
-| `Still-Running.png` | 1584 × 912 nearest-neighbour enlargement |
-| `Still-Running-flow-native.gif` | 528 × 304 lossless loop, 360 frames at 25 fps |
-| `Still-Running-flow.gif` | 1056 × 608 pixel-art loop |
-| `Still-Running-flow.mp4` | 1584 × 912 H.264 video with sRGB transfer and BT.709 primaries |
-| `Still-Running-phone.webp` | 330 × 190 whole-room mobile preview |
-| `Still-Running-dust-detail.gif` | Enlarged detail of the curtain and light shafts |
+| [Still-Running-native.png](renders/Still-Running-native.png) | Native 528 × 304 indexed still |
+| [Still-Running.png](renders/Still-Running.png) | 1584 × 912 nearest-neighbour enlargement |
+| [Still-Running-flow-native.gif](renders/Still-Running-flow-native.gif) | 528 × 304 lossless loop, 360 frames at 25 fps |
+| [Still-Running-flow.gif](renders/Still-Running-flow.gif) | 1056 × 608 pixel-art loop |
+| [Still-Running-flow.mp4](renders/Still-Running-flow.mp4) | 1584 × 912 H.264 video with sRGB transfer and BT.709 primaries |
+| [Still-Running-phone.webp](renders/Still-Running-phone.webp) | 330 × 190 whole-room mobile preview |
+| [Still-Running-dust-detail.gif](renders/Still-Running-dust-detail.gif) | Enlarged detail of the curtain and light shafts |
 
 ## Where to edit
 
