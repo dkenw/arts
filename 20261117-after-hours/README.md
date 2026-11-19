@@ -5,8 +5,6 @@ A small set of scripts that draws a 384 × 256 pixel illustration and an
 
 ![After Hours](artifacts/still/after-hours.png)
 
-![After Hours animation with pool ripples, rising steam and drifting dust](artifacts/animation/after-hours-animated.gif)
-
 [Animated GIF](artifacts/animation/after-hours-animated.gif) · [MP4](artifacts/animation/after-hours-animated.mp4)
 
 ## Files
