@@ -1,0 +1,18 @@
+{
+  "accelerator_rays_compared": 8192,
+  "all_hit_ids_match": true,
+  "depth_error_metres": 2.1582735598713043e-13,
+  "normal_error": 1.3710421686852214e-11,
+  "animated_wave_intersection_error_metres": 1.3322676295501878e-15,
+  "animated_wave_gradient_error": 6.723120671292548e-11,
+  "loop_end_image_identical_to_start": true,
+  "gif_all_frames_in_authored_palette": true,
+  "gif_duration_ms": 8000,
+  "video": {
+    "width": 1536,
+    "height": 1024,
+    "r_frame_rate": "25/1",
+    "duration": "8.000000",
+    "nb_frames": "200"
+  }
+}

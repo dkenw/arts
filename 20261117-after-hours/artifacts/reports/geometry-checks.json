@@ -1,0 +1,198 @@
+{
+  "camera": {
+    "eye_metres": [
+      -2.7,
+      5.5,
+      1.4
+    ],
+    "target_metres": [
+      6.5,
+      0.35,
+      6.2
+    ],
+    "horizontal_fov_degrees": 62.0,
+    "focal_length_pixels": 319.54166061129945,
+    "principal_point_pixels": [
+      192.0,
+      112.0
+    ]
+  },
+  "vanishing_points_pixels": {
+    "X": [
+      378.1202715565389,
+      -46.5868575201188
+    ],
+    "Y": [
+      192.0,
+      755.8545694322324
+    ],
+    "Z": [
+      -491.7334975931184,
+      -46.5868575201188
+    ]
+  },
+  "dimensions_metres": {
+    "pool": [
+      8,
+      12
+    ],
+    "water_depth_mean": 3.8000000000000003,
+    "deck_to_water_drop": 0.15,
+    "door_opening": [
+      1,
+      2.1
+    ],
+    "platform_height": 3.0,
+    "figure_cap_height_above_platform": 0.9283323147066826,
+    "ladder_rail_spacing": 0.6,
+    "ladder_tread_spacing": 0.3
+  },
+  "flat_lamp_reflection_water_contact_metres": [
+    5.169273060476482,
+    -0.15000000000000036,
+    9.92849725106903
+  ],
+  "caustic_map": {
+    "samples": 1843200,
+    "transmitted_flux_rgb": [
+      0.3060208102968482,
+      4.552523128617183,
+      5.924959925174743
+    ],
+    "floor_flux_rgb": [
+      0.23279288125068565,
+      3.346128505940005,
+      4.338005282047424
+    ],
+    "peak_irradiance": 0.13895980903278174,
+    "finite_nonnegative": true
+  },
+  "spotlight": {
+    "source_metres": [
+      0.5,
+      6.05,
+      9.5
+    ],
+    "aim_metres": [
+      2.08,
+      3.66,
+      2.45
+    ],
+    "inner_half_angle_degrees": 1.7000000000000701,
+    "outer_half_angle_degrees": 3.6000000000000028,
+    "first_hit": "torso"
+  },
+  "checks": {
+    "camera_round_trip_max_error_pixels": {
+      "value": 1.7053025658242404e-13,
+      "passed": true
+    },
+    "shared_vanishing_point_max_line_error_pixels": {
+      "value": 9.43502679929225e-14,
+      "passed": true
+    },
+    "orthogonal_world_axes_projection_residual": {
+      "value": 0.0,
+      "passed": true
+    },
+    "all_scene_primitives_valid": {
+      "value": 548,
+      "passed": true
+    },
+    "spotlight_axis_first_hit_is_figure": {
+      "value": "torso",
+      "passed": true
+    },
+    "platform_support_contact_gap_metres": {
+      "value": 0.0,
+      "passed": true
+    },
+    "seated_pelvis_platform_contact_gap_metres": {
+      "value": 0.0,
+      "passed": true
+    },
+    "dangling_feet_clear_platform_end_metres": {
+      "value": 0.14665531427568057,
+      "passed": true
+    },
+    "oriented_ellipsoid_hit_and_normal_max_error": {
+      "value": 5.6066262743570405e-15,
+      "passed": true
+    },
+    "ladder_tread_spacing_max_error_metres": {
+      "value": 1.6653345369377348e-16,
+      "passed": true
+    },
+    "ladder_treads_within_pool": {
+      "value": 6,
+      "passed": true
+    },
+    "ladder_anchors_on_dry_deck": {
+      "value": 2,
+      "passed": true
+    },
+    "snell_law_max_residual": {
+      "value": 2.220446049250313e-16,
+      "passed": true
+    },
+    "equal_reflection_angle_max_cosine_error": {
+      "value": 1.1102230246251565e-16,
+      "passed": true
+    },
+    "refracted_ray_unit_length_error": {
+      "value": 1.1102230246251565e-16,
+      "passed": true
+    },
+    "normal_incidence_water_reflectance": {
+      "value": 0.020373187841971414,
+      "passed": true
+    },
+    "flat_reflection_vs_mirrored_source_direction_error": {
+      "value": 1.6653345369377348e-16,
+      "passed": true
+    },
+    "ray_wave_surface_max_intersection_error_metres": {
+      "value": 1.3600232051658168e-15,
+      "passed": true
+    },
+    "wave_gradient_finite_difference_error": {
+      "value": 6.723120671292548e-11,
+      "passed": true
+    },
+    "caustic_map_finite_nonnegative": {
+      "value": 0.13895980903278174,
+      "passed": true
+    },
+    "caustic_floor_to_transmitted_flux_max_ratio": {
+      "value": 0.7607093158954467,
+      "passed": true
+    },
+    "native_resolution_pixels": {
+      "value": [
+        384,
+        256
+      ],
+      "passed": true
+    },
+    "used_palette_colours": {
+      "value": 28,
+      "passed": true
+    },
+    "preview_exact_nearest_neighbour": {
+      "value": true,
+      "passed": true
+    }
+  },
+  "limitations": [
+    "Fixed-palette pixel stylisation, not photometric calibration.",
+    "Ambient term approximates diffuse indirect light, including cool pool fill.",
+    "Finite fixtures are approximated by point lights for direct illumination.",
+    "Water uses analytic waves and one reflected/refracted secondary ray per pixel.",
+    "The caustic map samples three points on the tube and omits visibility between the emitter and water.",
+    "Air uses 40-step single scattering with a 192-pixel shadow map and an artistic scattering gain.",
+    "Native-grid bloom is an artistic finishing effect.",
+    "No full global illumination or volumetric multiple scattering.",
+    "Selective pixel contours, dust and steam are authored finishing touches anchored to projected geometry.",
+    "Clearances are a plausible illustration layout, not a certified pool design."
+  ]
+}

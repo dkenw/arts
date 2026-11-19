@@ -1,0 +1,34 @@
+{
+  "frames": 200,
+  "frames_per_second": 25,
+  "seconds": 8.0,
+  "native_dimensions": [
+    384,
+    256
+  ],
+  "palette_entries": 28,
+  "unique_frames": 200,
+  "start_equals_endpoint": true,
+  "wrap_changed_pixel_fraction": 0.024271647135416668,
+  "internal_changed_pixel_fraction_min": 0.021555582682291668,
+  "internal_changed_pixel_fraction_max": 0.026580810546875,
+  "wavelengths_metres": [
+    1.2336276477878467,
+    0.6939155518806637,
+    2.0392620300166446
+  ],
+  "motion": [
+    "Gentler water waves, with recomputed intersections, normals, reflected and refracted rays.",
+    "Recomputed forward caustic map through the moving surface.",
+    "Slower periodic depth-tested rising cup steam.",
+    "Sparse periodic depth-tested floating dust."
+  ],
+  "limits": [
+    "Analytic waves, not a full fluid solver.",
+    "Three sample positions approximate the ceiling emitter.",
+    "Caustics omit emitter-to-water visibility.",
+    "Air scattering, indirect fill and bloom retain the art-directed approximations of the still.",
+    "GIF preserves palette RGB values; the compatible MP4 uses lossy YUV encoding."
+  ],
+  "gif_round_trip_exact": true
+}
